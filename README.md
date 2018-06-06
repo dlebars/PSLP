@@ -4,11 +4,14 @@ The Probabilistic Sea Level Projection model makes sea level projections using t
 To run the model:
 
 1) Install the NCL language (http://www.ncl.ucar.edu/)
-2) Prepare a namelist (see examples in the Exp_PaperDependence folder)
-3) Modify the LoopProjections.bash script with the name of your namelist
-4) Run ./LoopProjections.bash , it will read in the namelist and run main.ncl
-5) Output data will be in the same folder as the namelist
-6) Data can then be analyzed using the code in the PostPro folder.
+2) Unzip the InputData file
+3) Prepare a namelist (see examples in the Exp_PaperDependence folder)
+4) Modify the LoopProjections.bash script with the name of your namelist
+5) Run ./LoopProjections.bash , it will read in the namelist and run main.ncl
+6) Output data will be in the same folder as the namelist
+7) Data can then be analyzed using the code in the PostPro folder.
+
+Only a few options are now included mostly for reproducibility of the results discussed in Le Bars et al. 2017 and in Le Bars et al. 2018. The input data for regional projections are not yet included. Contact me if you are interested in this option (bars .at. knmi.nl)
 
 The PSLP model was used in:
 
